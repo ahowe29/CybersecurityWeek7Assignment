@@ -4,7 +4,7 @@
 
 Time spent: 4 hours spent in total
 
-> Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
+> Objective: Find, analyze, recreate, and document **three vulnerabilities** affecting an old version of WordPress
 
 ## Pentesting Report
 
@@ -23,7 +23,7 @@ Time spent: 4 hours spent in total
 - Vulnerability types: XSS Injection
 - Tested in version: 4.1.1
 - Fixed in version: 4.2.13
-- [x] GIF Walkthrough:<img src='http://i.imgur.com/DfD3ETz.gif' title='GIF Walkthrough' width='' alt='GIF Walkthrough' /> 
+- [x] GIF Walkthrough: ![week7 2](https://user-images.githubusercontent.com/10890766/31866517-96cd67fe-b74e-11e7-947b-40303e8d2091.gif) 
 - [x] Steps to recreate: 
     - Add three or more media files to your wordpress library, insert "Let it go <noscript/><script>alert(document.cookie);</script>" into the description of the media file.
     - Create a new post and add the media file to the post as an audio playlist.
@@ -46,27 +46,14 @@ Time spent: 4 hours spent in total
 - [x] Affected source code:
 - [Link 3](https://github.com/WordPress/WordPress/commit/c9e60dab176635d4bfaaf431c0ea891e4726d6e0)
 
-4\. [x]  (Optional) WordPress 4.0-4.7.2 - Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeded
-- [x] Summary: 
-- Vulnerability types: XSS and Inject
-- Tested in version: 4.2.2
-- Fixed in version: 4.2.13
 
-- [x] GIF Walkthrough:<img src='http://i.imgur.com/mPknDdx.gif' title='GIF Walkthrough' width='' alt='GIF Walkthrough' /> 
-- [x] Steps to recreate: 
-- Choose an youtube video that you would like to embed into the post
-- Add "[embed src=âhttps://youtube.come/embed/12345\x3csvg onload=while(1){alert(document.cookie};\x3eâ][/embed]" with the URL
-- Post the post
-- You will recieve an error message and be redirected to the images source.
-- [x] Affected source code:
-- [Link 4](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
 
 
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
-This assignment was challenging, but interesting.
+This assignment was interesting.
 
 ## License
 
