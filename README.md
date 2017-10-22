@@ -37,7 +37,7 @@ Time spent: 4 hours spent in total
 - Tested in version: 4.2.2
 - Fixed in version: 4.2.10
 
-- [x] GIF Walkthrough:<img src='http://i.imgur.com/xoOxt4Y.gif' title='GIF Walkthrough' width='' alt='GIF Walkthrough' /> 
+- [x] GIF Walkthrough:![week7 3](https://user-images.githubusercontent.com/10890766/31866449-91f3bf72-b74d-11e7-808a-7a243926bd4d.gif) 
 - [x] Steps to recreate: 
 - Choose an image that you will change the name of in your computers files.
 - Rename the image to a<img src=a onerror=alert(document.cookie)>.jpg, then upload the image to WordPress
@@ -70,7 +70,7 @@ This assignment was challenging, but interesting.
 
 ## License
 
-Copyright [2017] [Sasha Morgan]
+Copyright [2017] [Allie Howe]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
